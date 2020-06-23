@@ -32,10 +32,10 @@ type Model struct {
 }
 
 type feedbackResult struct {
-	feedbackTotal    int32
-	feedbackPositive int32
-	feedbackNegative int32
-	feedbackNeutral  int32
+	feedbackTotal    int
+	feedbackPositive int
+	feedbackNegative int
+	feedbackNeutral  int
 }
 
 var vehicleResult map[string]feedbackResult
